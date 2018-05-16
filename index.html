@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html ng-app="fanApp">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!-- frameworks -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.js"></script>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment-with-locales.min.js"></script>
+    <!-- StyleSheets -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.1.3/ui-bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- custom JS -->
+    <script src="app.js"></script>
+    <script src="controllers/dataController.js"></script>
+    <script src="services/FanduelDataFactory.js"></script>
+    <!-- <script src="directives/barchartDirective.js"></script> -->
+</head>
+    <body ng-controller="dataCtrl">
+        <div class="jumbotron">
+            <center>
+                <h1>Fantasy Addicts Anonymous</h1>
+            </center>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading panel-primary-filters">
+                <center><strong>Filters</strong></center>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            <center>Owner</center>
+                        </th>
+                        <th>
+                            <center>Position</center>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <center><select ng-model="searchOwner.owner" ng-init="searchOwner.owner='Alex'" class="form-control">
+                                <option value="Alex">Alex</option>
+                                <option value="Justin">Justin</option>
+                                <option value="Walker">Walker</option>
+                                <option value="Ethan">Ethan</option>
+                                <option value="Nathan">Nathan</option>
+                                <option value="Connor">Connor</option>
+                                <option value="Josh">Josh</option>
+                                <option value="Chandler">Chandler</option>
+                                <option value="Jaime">Jaime</option>
+                                <option value="Colin">Colin</option>
+                                <option value="RJ">RJ</option>
+                                <option value="Russ">Russ</option>
+                            </select></center>
+                        </td>
+                        <td>
+                            <center><select ng-model="searchPosition.position" class="form-control">
+                                <option value="">All Positions</option>
+                                <option value="QB">QB</option>
+                                <option value="RB">RB</option>
+                                <option value="WR">WR</option>
+                                <option value="TE">TE</option>
+                                <option value="DST">DST</option>
+                            </select></center>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <table class="table table-striped table-hover table-bordered">
+            <tbody>
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Team</th>
+                        <th>Position</th>
+                        <th>Age</th>
+                        <th>Dynasty Rank</th>
+                        <th>Passing Yards</th>
+                        <th>Passing Tds</th>
+                        <th>Rushing Yards</th>
+                        <th>Rushing Tds</th>
+                        <th>Receptions</th>
+                        <th>Receiving Yards</th>
+                        <th>Receiving Tds</th>
+                        <th>Turnovers</th>
+                        <th>Fantasy Points 2017</th>
+                        <th>Projected Fantasy Points 2018</th>
+                    </tr>
+                </thead>
+                <tr ng-repeat="h in holders | orderBy:'position' | filter:searchOwner | filter:searchPosition">
+                    <!-- <td>{</td> -->
+                    <td>{{h.player}}</td>
+                    <td>{{h.team}}</td>
+                    <td>{{h.position}}</td>
+                    <td>{{h.age}}</td>
+                    <td>{{h.dynastyRank}}</td>
+                    <td>{{h.passYards}}</td>
+                    <td>{{h.passTds}}</td>
+                    <td>{{h.rushYards}}</td>
+                    <td>{{h.rushTds}}</td>
+                    <td>{{h.receptions}}</td>
+                    <td>{{h.recYards}}</td>
+                    <td>{{h.recTds}}</td>
+                    <td>{{h.turnovers}}</td>
+                    <td>{{h.fp2017}}</td>
+                    <td>{{h.pfp2018}}</td>
+                    <!-- <td>"Category": "{{e.Category}}",</td>
+                    <td>"Assigned" : "{{e.Assigned}}",</td>
+                    <td>"Region" : "{{e.Region}}",</td>
+                    <td>"Regional" : "{{e.Regional}}",</td>
+                    <td>"HQRS" : "{{e.HQRS}}",</td>
+                    <td>"ContractNumber" : "{{e.ContractNumber}}",</td>
+                    <td>"LineItem" : "{{e.LineItem}}",</td>
+                    <td>"ShipmentDate" : "{{e.ShipmentDate}}",</td>
+                    <td>"TrackingNumber" : "{{e.TrackingNumber}}",</td>
+                    <td>"ShipToPlant" : "{{e.ShipToPlant}}",</td>
+                    <td>"Quantity" : "{{e.Quantity}}",</td>
+                    <td>"Material" : "{{e.Material}}",</td>
+                    <td>"UoM" : "{{e.UoM}}",</td>
+                    <td>"PenaltyDays" : "{{e.PenaltyDays}}",</td>
+                    <td>"PaymentTerms" : "{{e.PaymentTerms}}",</td>
+                    <td>"InvoiceDate" : "{{e.InvoiceDate}}",</td>
+                    <td>"InvoiceNumber" : "{{e.InvoiceNumber}}"</td>
+                    <td>},</td>
+                    <td>{</td>
+                    <td>}</td> -->
+                </tr>
+            </tbody>
+        </table>
+        <!--
+        <h3>SVG Bar</h3>
+        <svg>
+            <rect width="50" height="200" style="fill: blue"/>
+        </svg>
+
+        <h3>D3 Bar</h3>
+        <script>
+            d3.select("body")
+            .append("svg")
+            .append("rect")
+                .attr("width",50)
+                .attr("height",200)
+                .style("fill", "blue");
+        </script>-->
+    </body>
+</html>

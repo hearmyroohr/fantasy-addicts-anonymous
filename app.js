@@ -1,0 +1,1 @@
+var app = angular.module('fanApp', ['ui.bootstrap']);
