@@ -11,3 +11,9 @@
 	color: #ddd;
 	border: #000000;
 }
+
+#container {
+	margin: auto;
+	padding: 10px;
+	width: 90%;
+}

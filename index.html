@@ -26,6 +26,7 @@
                 <h1>Fantasy Addicts Anonymous</h1>
             </center>
         </div>
+        <div id="container">
         <div class="panel panel-primary">
             <div class="panel-heading panel-primary-filters">
                 <center><strong>Filters</strong></center>
@@ -79,8 +80,6 @@
                     <tr>
                         <th>Position</th>
                         <th>Count</th>
-                        <th>Avg Age</th>
-                        <th>Avg Dynasty Rank</th>
                         <th>2017</th>
                         <th>2018 Projection</th>
                         <th>Pass Yards</th>
@@ -97,8 +96,6 @@
                     <!-- <td>{</td> -->
                     <td>{{t.position}}</td>
                     <td>{{t.count}}</td>
-                    <td>{{t.avgAge}}</td>
-                    <td>{{t.avgDyRank.toFixed(0)}}</td>
                     <td>{{t.fpTotal2017.toFixed(2)}}</td>
                     <td>{{t.pfpTotal2018.toFixed(2)}}</td>
                     <td>{{t.passYardsTotal.toFixed(2)}}</td>
@@ -173,6 +170,7 @@
                 </tr>
             </tbody>
         </table>
+    </div>
         <!--
         <h3>SVG Bar</h3>
         <svg>

@@ -5,7 +5,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -14,7 +14,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -23,7 +23,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -32,7 +32,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -41,7 +41,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -50,7 +50,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -59,7 +59,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -68,7 +68,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -77,7 +77,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -86,7 +86,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -95,7 +95,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     {
@@ -104,7 +104,7 @@ var summaryArray = [
             { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
         ]
     },
     
@@ -218,11 +218,12 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
             } else {
                 age = -1;
             }
-            if (dynastyRank !== " ") {
+            if (dynastyRank !== "") {
                 dynastyRank = parseInt(data[i][7]);
             } else {
                 dynastyRank = -1;
             }
+            
             var passYards = parseFloat(data[i][8]);
             var passTds = parseFloat(data[i][9]);
             var rushYards = parseFloat(data[i][10]);
@@ -247,13 +248,13 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
                                 summaryArray[j].totalsArray[0].avgAge += 0;
                             }
                             if (dynastyRank > 0){
+                                //console.log(dynastyRank)
                                 summaryArray[j].totalsArray[0].tempCount2++;
                                 summaryArray[j].totalsArray[0].avgDyRank += dynastyRank;
                                 
                             } else {
                                 summaryArray[j].totalsArray[0].avgDyRank += 0;
                             }
-                            console.log(summaryArray[j].totalsArray[0].tempCount, summaryArray[j].totalsArray[0].avgAge, summaryArray[j].totalsArray[0].avgDyRank);
                             summaryArray[j].totalsArray[0].fpTotal2017 += fp2017;
                             summaryArray[j].totalsArray[0].pfpTotal2018 += pfp2018;
                             summaryArray[j].totalsArray[0].starter += 0; //Don't know how to do this one
@@ -391,6 +392,7 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
         console.log(summaryArray);
         $scope.summaryArray = summaryArray;
     });
+
         
     // });
     // /******************************************/
