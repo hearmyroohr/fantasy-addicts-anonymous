@@ -73,6 +73,45 @@
                 </tbody>
             </table>
         </div>
+        <table class="table table-striped table-hover table-bordered" ng-repeat="summary in summaryArray | filter:searchOwner">
+            <tbody>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Count</th>
+                        <th>Avg Age</th>
+                        <th>Avg Dynasty Rank</th>
+                        <th>2017</th>
+                        <th>2018 Projection</th>
+                        <th>Pass Yards</th>
+                        <th>Pass TDs</th>
+                        <th>Rush Yards</th>
+                        <th>Rush TDs</th>
+                        <th>Receptions</th>
+                        <th>Receiving Yards</th>
+                        <th>Receiving TDs</th>
+                        <th>Turnovers</th>
+                    </tr>
+                </thead>
+                <tr ng-repeat="t in summary.totalsArray">
+                    <!-- <td>{</td> -->
+                    <td>{{t.position}}</td>
+                    <td>{{t.count}}</td>
+                    <td>{{t.avgAge}}</td>
+                    <td>{{t.avgDyRank.toFixed(0)}}</td>
+                    <td>{{t.fpTotal2017.toFixed(2)}}</td>
+                    <td>{{t.pfpTotal2018.toFixed(2)}}</td>
+                    <td>{{t.passYardsTotal.toFixed(2)}}</td>
+                    <td>{{t.passTdsTotal.toFixed(2)}}</td>
+                    <td>{{t.rushYardsTotal.toFixed(2)}}</td>
+                    <td>{{t.rushTdsTotal.toFixed(2)}}</td>
+                    <td>{{t.recTotal.toFixed(2)}}</td>
+                    <td>{{t.recYardsTotal.toFixed(2)}}</td>
+                    <td>{{t.recTdsTotal.toFixed(2)}}</td>
+                    <td>{{t.turnTotal.toFixed(2)}}</td>
+                </tr>
+            </tbody>
+        </table>
         <table class="table table-striped table-hover table-bordered">
             <tbody>
                 <thead>

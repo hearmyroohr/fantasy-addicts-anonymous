@@ -1,122 +1,110 @@
 var summaryArray = [
     {
-        holderID: 1, holderName: "Alex", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 1, owner: "Alex", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 2, holderName: "Justin", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 2, owner: "Justin", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 3, holderName: "Walker", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 3, owner: "Walker", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 4, holderName: "Ethan", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 4, owner: "Ethan", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 5, holderName: "Nathan", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 5, owner: "Nathan", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 6, holderName: "Connor", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 6, owner: "Connor", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 7, holderName: "Josh", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 7, owner: "Josh", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 8, holderName: "Chandler", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 8, owner: "Chandler", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 9, holderName: "Jaime", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 9, owner: "Jaime", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 10, holderName: "Colin", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 10, owner: "Colin", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 11, holderName: "RJ", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 11, owner: "RJ", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     {
-        holderID: 12, holderName: "Russ", totalsArray: [
-            { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "RB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "WR", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "TE", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "DST", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
-            { position: "All", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0, projFppg: 0}
+        holderID: 12, owner: "Russ", totalsArray: [
+            { position: "QB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "RB", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "WR", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "TE", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
+            { position: "DST", count: 0, tempCount: 0, tempCount2: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: "", avgDyRank: 0},
         ]
     },
     
@@ -223,8 +211,18 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
             var player = data[i][3];
             var team = data[i][4];
             var position = data[i][5];
-            var age = parseInt(data[i][6]);
-            var dynastyRank = parseFloat(data[i][7]);
+            var age = data[i][6]; 
+            var dynastyRank = data[i][7];
+            if (age !== "") {
+                age = parseInt(data[i][6]);
+            } else {
+                age = -1;
+            }
+            if (dynastyRank !== " ") {
+                dynastyRank = parseInt(data[i][7]);
+            } else {
+                dynastyRank = -1;
+            }
             var passYards = parseFloat(data[i][8]);
             var passTds = parseFloat(data[i][9]);
             var rushYards = parseFloat(data[i][10]);
@@ -238,10 +236,24 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
             // { position: "QB", count: 0, fpTotal2017: 0, pfpTotal2018: 0, starter: 0, passYardsTotal: 0, passTdsTotal: 0, rushYardsTotal: 0, rushTdsTotal: 0, recTotal: 0, recYardsTotal: 0, recTdsTotal: 0, turnTotal: 0, avgAge: 0, avgDyRank: 0},
             for (var j = 0; j < summaryArray.length; j++){
                 if (summaryArray[j].holderID === ownerID) {
-                    console.log(summaryArray[j].holderID, ownerID, owner, player);
+                    // console.log(summaryArray[j].holderID, ownerID, owner, player);
                     switch (position) {
                         case "QB":
                             summaryArray[j].totalsArray[0].count++;
+                            if (age > 0){
+                                summaryArray[j].totalsArray[0].tempCount++;
+                                summaryArray[j].totalsArray[0].avgAge += age;
+                            } else {
+                                summaryArray[j].totalsArray[0].avgAge += 0;
+                            }
+                            if (dynastyRank > 0){
+                                summaryArray[j].totalsArray[0].tempCount2++;
+                                summaryArray[j].totalsArray[0].avgDyRank += dynastyRank;
+                                
+                            } else {
+                                summaryArray[j].totalsArray[0].avgDyRank += 0;
+                            }
+                            console.log(summaryArray[j].totalsArray[0].tempCount, summaryArray[j].totalsArray[0].avgAge, summaryArray[j].totalsArray[0].avgDyRank);
                             summaryArray[j].totalsArray[0].fpTotal2017 += fp2017;
                             summaryArray[j].totalsArray[0].pfpTotal2018 += pfp2018;
                             summaryArray[j].totalsArray[0].starter += 0; //Don't know how to do this one
@@ -253,11 +265,22 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
                             summaryArray[j].totalsArray[0].recYardsTotal += recYards;
                             summaryArray[j].totalsArray[0].recTdsTotal += recTds;
                             summaryArray[j].totalsArray[0].turnTotal += turnovers;
-                            summaryArray[j].totalsArray[0].avgAge += age;
-                            summaryArray[j].totalsArray[0].avgDyRank += dynastyRank;
                             break;
                         case "RB":
                         summaryArray[j].totalsArray[1].count++;
+                        if (age > 0){
+                            summaryArray[j].totalsArray[1].tempCount++;
+                            summaryArray[j].totalsArray[1].avgAge += age;
+                        } else {
+                            summaryArray[j].totalsArray[1].avgAge += 0;
+                        }
+                        if (dynastyRank > 0){
+                            summaryArray[j].totalsArray[1].tempCount2++;
+                            summaryArray[j].totalsArray[1].avgDyRank += dynastyRank;
+                            
+                        } else {
+                            summaryArray[j].totalsArray[1].avgDyRank += 0;
+                        }
                         summaryArray[j].totalsArray[1].fpTotal2017 += fp2017;
                         summaryArray[j].totalsArray[1].pfpTotal2018 += pfp2018;
                         summaryArray[j].totalsArray[1].starter += 0; //Don't know how to do this one
@@ -269,11 +292,22 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
                         summaryArray[j].totalsArray[1].recYardsTotal += recYards;
                         summaryArray[j].totalsArray[1].recTdsTotal += recTds;
                         summaryArray[j].totalsArray[1].turnTotal += turnovers;
-                        summaryArray[j].totalsArray[1].avgAge += age;
-                        summaryArray[j].totalsArray[1].avgDyRank += dynastyRank;
                             break;
                         case "WR":
                         summaryArray[j].totalsArray[2].count++;
+                        if (age > 0){
+                            summaryArray[j].totalsArray[2].tempCount++;
+                            summaryArray[j].totalsArray[2].avgAge += age;
+                        } else {
+                            summaryArray[j].totalsArray[2].avgAge += 0;
+                        }
+                        if (dynastyRank > 0){
+                            summaryArray[j].totalsArray[2].tempCount2++;
+                            summaryArray[j].totalsArray[2].avgDyRank += dynastyRank;
+                            
+                        } else {
+                            summaryArray[j].totalsArray[2].avgDyRank += 0;
+                        }
                         summaryArray[j].totalsArray[2].fpTotal2017 += fp2017;
                         summaryArray[j].totalsArray[2].pfpTotal2018 += pfp2018;
                         summaryArray[j].totalsArray[2].starter += 0; //Don't know how to do this one
@@ -285,11 +319,22 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
                         summaryArray[j].totalsArray[2].recYardsTotal += recYards;
                         summaryArray[j].totalsArray[2].recTdsTotal += recTds;
                         summaryArray[j].totalsArray[2].turnTotal += turnovers;
-                        summaryArray[j].totalsArray[2].avgAge += age;
-                        summaryArray[j].totalsArray[2].avgDyRank += dynastyRank;
                             break;
                         case "TE":
                         summaryArray[j].totalsArray[3].count++;
+                        if (age > 0){
+                            summaryArray[j].totalsArray[3].tempCount++;
+                            summaryArray[j].totalsArray[3].avgAge += age;
+                        } else {
+                            summaryArray[j].totalsArray[3].avgAge += 0;
+                        }
+                        if (dynastyRank > 0){
+                            summaryArray[j].totalsArray[3].tempCount2++;
+                            summaryArray[j].totalsArray[3].avgDyRank += dynastyRank;
+                            
+                        } else {
+                            summaryArray[j].totalsArray[4].avgDyRank += 0;
+                        }
                         summaryArray[j].totalsArray[3].fpTotal2017 += fp2017;
                         summaryArray[j].totalsArray[3].pfpTotal2018 += pfp2018;
                         summaryArray[j].totalsArray[3].starter += 0; //Don't know how to do this one
@@ -301,11 +346,22 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
                         summaryArray[j].totalsArray[3].recYardsTotal += recYards;
                         summaryArray[j].totalsArray[3].recTdsTotal += recTds;
                         summaryArray[j].totalsArray[3].turnTotal += turnovers;
-                        summaryArray[j].totalsArray[3].avgAge += age;
-                        summaryArray[j].totalsArray[3].avgDyRank += dynastyRank;
                             break;
                         case "DST":
                         summaryArray[j].totalsArray[4].count++;
+                        if (age > 0){
+                            summaryArray[j].totalsArray[4].tempCount++;
+                            summaryArray[j].totalsArray[4].avgAge += age;
+                        } else {
+                            summaryArray[j].totalsArray[4].avgAge += 0;
+                        }
+                        if (dynastyRank > 0){
+                            summaryArray[j].totalsArray[4].tempCount2++;
+                            summaryArray[j].totalsArray[4].avgDyRank += dynastyRank;
+                            
+                        } else {
+                            summaryArray[j].totalsArray[4].avgDyRank += 0;
+                        }
                         summaryArray[j].totalsArray[4].fpTotal2017 += fp2017;
                         summaryArray[j].totalsArray[4].pfpTotal2018 += pfp2018;
                         summaryArray[j].totalsArray[4].starter += 0; //Don't know how to do this one
@@ -317,10 +373,15 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
                         summaryArray[j].totalsArray[4].recYardsTotal += recYards;
                         summaryArray[j].totalsArray[4].recTdsTotal += recTds;
                         summaryArray[j].totalsArray[4].turnTotal += turnovers;
-                        summaryArray[j].totalsArray[4].avgAge += age;
-                        summaryArray[j].totalsArray[4].avgDyRank += dynastyRank;
                             break;
                     } 
+                }
+            }
+            for (var h = 0; h < summaryArray.length; h++){
+                for (var k = 0; k < summaryArray[h].totalsArray.length; k++){
+                    if (summaryArray[h].totalsArray[k].tempCount != 0 && summaryArray[h].totalsArray[k].tempCount2 != 0)
+                    summaryArray[h].totalsArray[k].avgAge = (summaryArray[h].totalsArray[k].avgAge/summaryArray[h].totalsArray[k].tempCount);
+                    summaryArray[h].totalsArray[k].avgDyRank = (summaryArray[h].totalsArray[k].avgDyRank/summaryArray[h].totalsArray[k].tempCount++);
                 }
             }
             // var qbCount = 
@@ -328,6 +389,7 @@ app.controller('dataCtrl', function($scope, FaaDataFactory) {
         }
         console.log($scope.holders);
         console.log(summaryArray);
+        $scope.summaryArray = summaryArray;
     });
         
     // });
